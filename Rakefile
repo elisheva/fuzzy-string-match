@@ -40,7 +40,7 @@ begin
                              'README.md'].to_a
     gemspec.add_development_dependency( "rspec" )
     gemspec.add_dependency( 'RubyInline', '>= 3.8.6')
-    gemspec.required_ruby_version = '>= 1.9.1'
+    gemspec.required_ruby_version = '>= 1.8.7'
   end
 
 rescue LoadError
